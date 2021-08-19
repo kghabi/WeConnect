@@ -149,7 +149,6 @@ const CreateProfile = ({ createProfile, history }) => {
           >
             Add Social Network Links
           </button>
-          <span>Optional</span>
         </div>
 
         {displaySocialInputs && (
