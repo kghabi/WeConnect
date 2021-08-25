@@ -72,7 +72,7 @@ const EditProfile = ({
   };
 
   return (
-    <Fragment>
+    <div className='container mw-700-px'>
       <h1 className='large text-primary'>Create Your Profile</h1>
       <p className='lead'>
         <i className='fas fa-user'></i> Let's get some information to make your
@@ -175,7 +175,6 @@ const EditProfile = ({
           >
             Add Social Network Links
           </button>
-          <span>Optional</span>
         </div>
 
         {displaySocialInputs && (
@@ -237,12 +236,14 @@ const EditProfile = ({
           </Fragment>
         )}
 
-        <input type='submit' className='btn btn-primary my-1' />
+        <button type='submit' className='btn btn-primary my-1'>
+          Submit
+        </button>
         <Link className='btn btn-light my-1' to='/dashboard'>
           Go Back
         </Link>
       </form>
-    </Fragment>
+    </div>
   );
 };
 

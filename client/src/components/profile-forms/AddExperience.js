@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from 'react';
+import React, { useState } from 'react';
 import { Link, withRouter } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
@@ -23,7 +23,7 @@ const AddExperience = ({ addExperience, history }) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
 
   return (
-    <Fragment>
+    <div className='container mw-700-px'>
       <h1 className='large text-primary'>Add An Experience</h1>
       <p className='lead'>
         <i className='fas fa-code-branch'></i> Add any developer/programming
@@ -40,6 +40,7 @@ const AddExperience = ({ addExperience, history }) => {
         <div className='form-group'>
           <input
             type='text'
+            maxLength='30'
             placeholder='* Job Title'
             name='title'
             value={title}
@@ -50,6 +51,7 @@ const AddExperience = ({ addExperience, history }) => {
         <div className='form-group'>
           <input
             type='text'
+            maxLength='25'
             placeholder='* Company'
             name='company'
             value={company}
@@ -60,6 +62,7 @@ const AddExperience = ({ addExperience, history }) => {
         <div className='form-group'>
           <input
             type='text'
+            maxLength='25'
             placeholder='Location'
             name='location'
             value={location}
@@ -105,17 +108,20 @@ const AddExperience = ({ addExperience, history }) => {
             name='description'
             cols='30'
             rows='5'
+            maxLength='50'
             placeholder='Job Description'
             value={description}
             onChange={(e) => onChange(e)}
           ></textarea>
         </div>
-        <input type='submit' className='btn btn-primary my-1' />
+        <button type='submit' className='btn btn-primary my-1'>
+          Submit
+        </button>
         <Link className='btn btn-light my-1' to='/dashboard'>
           Go Back
         </Link>
       </form>
-    </Fragment>
+    </div>
   );
 };
 

@@ -46,7 +46,7 @@ const CreateProfile = ({ createProfile, history }) => {
   };
 
   return (
-    <Fragment>
+    <div className='container mw-750-px'>
       <h1 className='large text-primary'>Create Your Profile</h1>
       <p className='lead'>
         <i className='fas fa-user'></i> Let's get some information to make your
@@ -210,12 +210,14 @@ const CreateProfile = ({ createProfile, history }) => {
           </Fragment>
         )}
 
-        <input type='submit' className='btn btn-primary my-1' />
+        <button type='submit' className='btn btn-primary my-1'>
+          Submit
+        </button>
         <Link className='btn btn-light my-1' to='/dashboard'>
           Go Back
         </Link>
       </form>
-    </Fragment>
+    </div>
   );
 };
 

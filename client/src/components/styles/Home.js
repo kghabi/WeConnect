@@ -8,7 +8,7 @@ const Home = ({ isAuthenticated }) => {
     return <Redirect to='/dashboard' />;
   }
   return (
-    <section className='home'>
+    <div className='home'>
       <div className='dark-overlay'>
         <div className='home-inner'>
           <h1 className='x-large'>We Connect</h1>
@@ -25,8 +25,13 @@ const Home = ({ isAuthenticated }) => {
             </Link>
           </div>
         </div>
+        <div className='center-content bkg'>
+          <h5>
+            <i class='far fa-copyright    ' /> Ghabi Karim
+          </h5>
+        </div>
       </div>
-    </section>
+    </div>
   );
 };
 

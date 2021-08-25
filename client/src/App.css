@@ -44,6 +44,15 @@ img {
   margin-bottom: 3rem;
 }
 
+.container2 {
+  max-width: 950px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 2rem;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+}
+
 /* Text Styles*/
 .x-large {
   font-size: 4rem;
@@ -574,4 +583,26 @@ button {
   .post button {
     padding: 0.3rem 0.4rem;
   }
+}
+
+.mw-500-px {
+  max-width: 500px;
+}
+
+.mw-700-px {
+  max-width: 800px;
+}
+.mw-750-px {
+  max-width: 750px;
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+}
+
+.bkg {
+  background-color: rgb(99, 96, 96);
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(255, 255, 255);
 }

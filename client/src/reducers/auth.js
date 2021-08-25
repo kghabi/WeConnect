@@ -1,4 +1,3 @@
-/* eslint-disable no-fallthrough */
 /* eslint-disable import/no-anonymous-default-export */
 import {
   REGISTER_SUCCESS,

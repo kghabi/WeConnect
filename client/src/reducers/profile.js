@@ -1,4 +1,3 @@
-/* eslint-disable default-case */
 /* eslint-disable import/no-anonymous-default-export */
 import {
   GET_PROFILE,
