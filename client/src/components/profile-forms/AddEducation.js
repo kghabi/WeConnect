@@ -41,7 +41,7 @@ const AddEducation = ({ addEducation, history }) => {
         <div className='form-group'>
           <input
             type='text'
-            maxLength='30'
+            maxLength='40'
             placeholder='* School or Bootcamp'
             name='school'
             value={school}
@@ -63,7 +63,7 @@ const AddEducation = ({ addEducation, history }) => {
         <div className='form-group'>
           <input
             type='text'
-            maxLength='30'
+            maxLength='40'
             placeholder='Field of Study'
             name='fieldofstudy'
             value={fieldofstudy}
