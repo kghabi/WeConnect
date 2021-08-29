@@ -40,7 +40,6 @@ const AddExperience = ({ addExperience, history }) => {
         <div className='form-group'>
           <input
             type='text'
-            maxLength='30'
             placeholder='* Job Title'
             name='title'
             value={title}
@@ -51,7 +50,6 @@ const AddExperience = ({ addExperience, history }) => {
         <div className='form-group'>
           <input
             type='text'
-            maxLength='25'
             placeholder='* Company'
             name='company'
             value={company}
@@ -62,7 +60,6 @@ const AddExperience = ({ addExperience, history }) => {
         <div className='form-group'>
           <input
             type='text'
-            maxLength='25'
             placeholder='Location'
             name='location'
             value={location}
@@ -108,7 +105,6 @@ const AddExperience = ({ addExperience, history }) => {
             name='description'
             cols='30'
             rows='5'
-            maxLength='50'
             placeholder='Job Description'
             value={description}
             onChange={(e) => onChange(e)}

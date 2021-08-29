@@ -297,10 +297,22 @@ button {
   color: #0077b5;
 }
 
+table {
+  width: 100%;
+}
+
 .table th,
 .table td {
   padding: 1rem;
   text-align: left;
+}
+
+.table td {
+  word-break: break-all;
+}
+
+.table td button {
+  word-break: keep-all;
 }
 
 .table th {
@@ -416,10 +428,12 @@ button {
 
 .profile-exp {
   grid-area: exp;
+  word-break: break-all;
 }
 
 .profile-edu {
   grid-area: edu;
+  word-break: break-all;
 }
 
 .profile-exp h2,

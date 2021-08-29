@@ -41,7 +41,6 @@ const AddEducation = ({ addEducation, history }) => {
         <div className='form-group'>
           <input
             type='text'
-            maxLength='40'
             placeholder='* School or Bootcamp'
             name='school'
             value={school}
@@ -52,7 +51,6 @@ const AddEducation = ({ addEducation, history }) => {
         <div className='form-group'>
           <input
             type='text'
-            maxLength='40'
             placeholder='* Degree or Certificate'
             name='degree'
             value={degree}
@@ -63,7 +61,6 @@ const AddEducation = ({ addEducation, history }) => {
         <div className='form-group'>
           <input
             type='text'
-            maxLength='40'
             placeholder='Field of Study'
             name='fieldofstudy'
             value={fieldofstudy}
@@ -109,7 +106,6 @@ const AddEducation = ({ addEducation, history }) => {
             name='description'
             cols='30'
             rows='5'
-            maxLength='30'
             placeholder='Program Description'
             value={description}
             onChange={(e) => onChange(e)}
