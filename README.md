@@ -1,4 +1,6 @@
 # WeConnect
 MERN app project
 
-Project in progress...
+Link-to-my-app
+
+https://stormy-coast-00203.herokuapp.com/
