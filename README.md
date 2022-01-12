@@ -3,4 +3,4 @@ MERN app project
 
 Link-to-the-app-in-heroku
 
-<p> <a href="https://stormy-coast-00203.herokuapp.com/" target="_blank" rel="noopener noreferrer">WeConnect</a> </p>
+<a href="https://stormy-coast-00203.herokuapp.com/" target="_blank"> WeConnect </a>
